@@ -1,0 +1,12 @@
+argument_specs:
+  main:
+    short_description: Count sum between two numbers
+    options:
+      role_b_left:
+        description: Left border
+        type: int
+        required: true
+      role_b_right:
+        description: Right border
+        type: int
+        required: true

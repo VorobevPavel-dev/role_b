@@ -1,0 +1,9 @@
+---
+# tasks file for role_b
+- name: Count sum in fact
+  ansible.builtin.set_fact:
+    _role_b_sum: "{{ range(role_b_left, role_b_right+1) | sum }}"
+
+- name: Print result
+  ansible.builtin.debug:
+    msg: "{{ _role_b_sum }}"

@@ -1,0 +1,14 @@
+galaxy_info:
+  author: Pavel Vorobyov
+  description: Count sum between two numbers
+  license: MIT
+  min_ansible_version: 2.1
+  galaxy_tags: []
+dependencies:
+  - name: role_a
+    version: master
+    src: git+ssh://git@github.com:VorobevPavel-dev/role_a.git
+    vars:
+      role_a_prefix: "Hello, "
+      role_a_base: "Root"
+      role_a_suffix: ". Have a great day"
