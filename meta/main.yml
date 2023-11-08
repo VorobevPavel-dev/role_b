@@ -6,8 +6,9 @@ galaxy_info:
   galaxy_tags: []
 dependencies:
   - name: role_a
+    src: git@github.com:VorobevPavel-dev/role_a.git
+    scm: git
     version: master
-    src: git+ssh://git@github.com:VorobevPavel-dev/role_a.git
     vars:
       role_a_prefix: "Hello, "
       role_a_base: "Root"
